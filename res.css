@@ -252,4 +252,11 @@ p{
 .section-right li{
   font-size: 0.7rem;
 }
+.wrapper{
+  display: block;
+  word-wrap: break-word;
+}
+body{
+  height: 175vh;
+}
  }
