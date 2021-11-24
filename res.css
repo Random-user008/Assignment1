@@ -168,17 +168,16 @@ html {
 
   .stack_wrap .content1{
       width: 40px;
-      height: 30px;
+      height: 20px;
       color: #1C2C30;
       font-size: 12px;
       margin-left: 0px;
   }
   .stack_wrap .content2{
     width: 40px;
-    height: 30px;
+    height: 20px;
     color: #1C2C30;
     font-size: 12px;
-    margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 0px;
 }
@@ -194,7 +193,8 @@ html {
   font-size: 24px;
 }
 .section-left{
-  height: 400px;
+  margin-top: -20px;
+  height: 500px;
   width: 100%;
 }
 .section-right{
@@ -239,9 +239,17 @@ p{
 .section-right h5{
   font-size: 0.7rem;
 }
-
+.section-right{
+  height: 100%;
+}
 .content-body{
   display: block;
   word-wrap: break-word;
+}
+.stack_wrap .content2{
+  margin-top: 0px;
+}
+.section-right li{
+  font-size: 0.7rem;
 }
  }
